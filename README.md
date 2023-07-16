@@ -170,9 +170,13 @@ Lemmatization usually refers to doing things properly with the use of a vocabula
 It also normalizes like the stemming but after normalization, the representative word belongs to a dictionary. 
 
 ▪ Word Net Lemmatizer (Mostly used)
+
 ▪ Spacy Lemmatizer
+
 ▪ TextBlob
+
 ▪ Gensim Lemmatizer
+
 ▪ TreeTagger
 
 **WordNet Lemmatizer:** 
