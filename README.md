@@ -31,26 +31,46 @@ Corpus-> Lots of text. Ex: Wikipedia, Text data of website, Text data of Google,
 
 I love Bangladesh.
 
-Each one will be considered a different word and we will get individual token. I -> a word, love ->a word, Bamngladesh ->a word.
+Each one will be considered a different word and we will get individual token. 
+
+I -> a word, 
+
+love ->a word, 
+
+Bangladesh ->a word.
 
 **2. Character tokens:**
 
 I love Bangladesh.
 
 I -> a character.
+
 l -> a character.
+
 o -> a character.
+
 v -> a character.
+
 e -> a character.
+
 B -> a character.
+
 a -> a character.
+
 n -> a character.
+
 g -> a character.
+
 l -> a character.
+
 a -> a character.
+
 d -> a character.
+
 e -> a character.
+
 s -> a character.
+
 h -> a character.
 
 **3. Sentence tokens:**
