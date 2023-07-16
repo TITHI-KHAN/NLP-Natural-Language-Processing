@@ -230,7 +230,17 @@ This is bad.
 How many times 'This' is present in the total data?
 2 times.
 
+**Formula:**
 
+log(Total Sentence/ The word is common in how many sentences?)
+
+This: log(2/2)
+
+**TF-IDF**: TF * IDF = log(2/2)*(1/5) 
+                     = 0
+
+
+If we don't have huge amounts of data, then we can use TF-IDF Vectorizer.
 
 **Differences (TF-IDF Vs. Count):**
 
@@ -241,11 +251,23 @@ How many times 'This' is present in the total data?
 
 ▪ In AI inference and machine learning, sparsity refers to a matrix of numbers that includes many zeros or values that will not significantly impact a calculation.
 
+In Count Vectorizer, it does not capture the real symmetric meaning and normally, the cosine distance is much less in the data. So, it does not work well. In TF-IDF, it captures the word importance. So, TF-IDF vectorize is better than the count vectorizer. 
+
 **Word2Vec:**
 
-Word2vec is a Neural Network that processes text by “vectorizing” words. Its input is a text corpus and its output is a set of vectors: feature vectors that represent words in that corpus. 
+Word2vec is a Neural Network that processes text by “vectorizing” words. Its input is a text corpus and its output is a set of vectors: feature vectors that represent words in that corpus.
+
+It follows deep learning. For a less amount of data, it does not provide good performance. To train this, we need huge amounts of data so that it can match the information easily. 
+
+King-Man+Women = Queen
+10  - 2  + 3   = 5
+
+There are other ways as well to make Queen. 
+
+King+Wife=Queen
 
 ![image](https://github.com/TITHI-KHAN/NLP/assets/65033964/48f646b0-f4ac-427b-af58-d3f3d53de773)
+
 
 **Global Vectors for Word Representation (GloVe):** 
 
