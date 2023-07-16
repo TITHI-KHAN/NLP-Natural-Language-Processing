@@ -216,9 +216,13 @@ TreeTagger is a linguistic tool that performs part-of-speech tagging, named enti
 **Types of Vectorizer:**
 
 ▪ Bag of Words: Count Vectorizer
+
 ▪ TF-IDF Vectorizer
+
 ▪ Word2Vec
+
 ▪ Global Vectors for Word Representation
+
 ▪ BnVec (Bangla Feature Extractor)
 
 **Count Vectorizer (Mathematical architecture):**
